@@ -7,11 +7,11 @@
 	height: 30%;
 }
 .nametree{
-	width: 96%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	position: absolute;
-        top: -200px;
+        top: -100px;
         left: 40px;
 	
 }
@@ -23,7 +23,7 @@
   margin-right: auto;
   width: 30%;
   position: relative;
-    top: 0;
+    top: 100px;
     left: 0;
   z-index: 1;
 }
@@ -31,9 +31,9 @@
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
   position: relative;
-    top: -90px;
+    top: -50px;
     left: 50px;
   z-index: 1;
 }
@@ -41,10 +41,19 @@
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
   position: absolute;
         top: -70px;
         left: 500px;
+}
+.orgs{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: absolute;
+        top: 0px;
+        left: 0px;
 }
 .student{
   display: block;
@@ -52,8 +61,8 @@
   margin-right: auto;
   width: 27%;
   position: relative;
-    top: 350px;
-    left: -270px;
+    top: 450px;
+    left: 0px;
   z-index: 1;
 
 }
@@ -79,7 +88,7 @@
 	padding: 0;
 	position: absolute;
         top: 400px;
-        left: 0;
+        left: 800px;
 
 }
 .friends{
@@ -88,8 +97,8 @@
   margin-right: auto;
   width: 27%;
   position: relative;
-    top: 350px;
-    left: -270px;
+    top: 450px;
+    left: 0px;
   z-index: 1;
 }
 .pictures{
@@ -98,7 +107,7 @@
 	padding: 0;
 	position: absolute;
         top: 0px;
-        left: 200px;
+        left: 500px;
 }
 .ellipse{
 	
@@ -270,6 +279,9 @@ padding-top: 9%;
   background: #0c0030;
 }
 .four {
+  background: #0c0030;
+}
+.five {
   background: #0c0030;
 }
 .one {
