@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fatima Zahra Chriha</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/main.css' %}">
+</head>
+<body>
+    <div class="outer-wrapper">
+      <div class="wrapper">
+        <div class="slide one">
+            <div class="clouds">
+                <div class="x1">
+                    <div class="cloud"></div>
+                </div>
+
+                <div class="x2">
+                    <div class="cloud"></div>
+                </div>
+
+                <div class="x3">
+                    <div class="cloud"></div>
+                </div>
+            </div>
+            <div style="position: relative; left: 0; top: 0;">
+                <img class ="me" src="{% static 'portfolio/media/me1.png' %}">
+                <img class="nametree" src="{% static 'portfolio/media/nametree.png' %}">
+                
+              </div>
+            <div>
+
+            	
+            </div>
+     
+        </div>
+        <div class="slide two">
+        	
+        	<div style="position: relative; left: 0; top: 0;">
+                    <img class ="university" src="{% static 'portfolio/media/felicianu.png' %}">
+                    <img class ="student" src="{% static 'portfolio/media/student.png' %}">
+
+            </div>
+           
+        </div>
+
+        
+        <div class="slide three">
+            	<div class="grid-container">
+            	  <div class="grid-item">
+            	  	<div class="box1"><a href="https://kruush.herokuapp.com/"><img class="poster" src="{% static 'portfolio/media/krush.png' %}" width="80px"></a></div>
+            	  </div>
+            	  <div class="grid-item">
+            	  	<div class="box1"><a href="https://5ea48f583ea00972f74ef64c--quizzical-brown-b05fd1.netlify.app/"><img class="poster" src="{% static 'portfolio/media/gwcfelician.png' %}" width="100px"></a></div>
+            	  </div>
+            	  <div class="grid-item">
+            	  	<div class="box1"><a href="https://devpost.com/software/pizzabotnjit"><img class="poster" src="{% static 'portfolio/media/pizzabot.png' %}" width="80px"></a></div>
+            	  </div>
+            	</div>
+            	
+            	
+                <div style="position: relative; left: 0; top: 0;">
+                    <img class ="mecoding" src="{% static 'portfolio/media/mecoding.png' %}">
+                    <img class ="lamp" src="{% static 'portfolio/media/lamp.png' %}">
+                   <!--  <img class ="python" src="media/python.png"> -->
+                  </div>
+        </div>
+        <div class="slide four">
+
+        	<div style="position: relative; left: 0; top: 0;">
+                    <img class ="orgs" src="{% static 'portfolio/media/orgs.png' %}">
+                  </div>
+            	
+                 
+        </div>
+        <div class="slide five">
+        	<div style="position: relative; left: 0; top: 0;">
+                    <img class ="pictures" src="{% static 'portfolio/media/pictures.png' %}">
+                    <img class ="friends" src="{% static 'portfolio/media/friends.png' %}">
+                     <img class ="plant" src="{% static 'portfolio/media/plant.png' %}">
+
+            </div>
+            
+
+        </div>
+      </div>
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js">
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('.image').ripples('show');
+        });
+    </script>
+</body>
+</html>
