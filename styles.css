@@ -44,16 +44,16 @@
   width: 60%;
   position: absolute;
         top: -70px;
-        left: 500px;
+        left: 300px;
 }
 .orgs{
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 120%;
   position: absolute;
-        top: 0px;
-        left: 0px;
+        top: -50px;
+        left: 100px;
 }
 .student{
   display: block;
@@ -87,7 +87,7 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-        top: 400px;
+        top: 500px;
         left: 800px;
 
 }
@@ -276,7 +276,7 @@ padding-top: 9%;
   background: #0c0030;
 }
 .three {
-  background: #0c0030;
+  background: #fde3d2;
 }
 .four {
   background: #0c0030;
